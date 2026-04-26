@@ -7,7 +7,7 @@ from ultralytics import YOLO
 # --- 1. 配置路径与参数 ---
 PARAM_PATH = '/home/gsp/00fish_eye_camera/fisheye_calib_params.npz'
 SAVE_DIR = '/home/gsp/00fish_eye_camera/yolo_comparison'
-CAMERA_ID = 0
+CAMERA_ID = 2
 
 # 你的 YOLO-Pose 模型路径
 YOLO_MODEL_PATH = '/home/gsp/00fish_eye_camera/best.pt' 
