@@ -4,7 +4,7 @@ import glob
 
 # --- 1. 参数设置 ---
 CHECKERBOARD = (10, 7) # 棋盘格内角点数量 (列数, 行数)
-SQUARE_SIZE = 15       # 每个方块的实际物理边长 (毫米)
+SQUARE_SIZE = 15       # 每个方块的实际物理边长 (毫米)2
 
 # 停止迭代的标准：达到最大迭代次数 30，或者精度达到 0.1
 subpix_criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.1)
